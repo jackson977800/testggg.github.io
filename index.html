@@ -2,126 +2,75 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Linktree</title>
-    <!-- Meta tags for SEO and social sharing -->
-    <meta
-      name="description"
-      content="Personal profile page with social media links, contact buttons, and a brief introduction."
+    <title>79 Ling's Hair Studio</title>
+    <link rel="stylesheet" href="main.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&display=swap"
+      rel="stylesheet"
     />
-    <meta
-      name="keywords"
-      content="Linktree, personal profile, social media links, contact, developer profile"
-    />
-    <meta name="author" content="Anuswar R Rao" />
-
-    <!-- Open Graph meta tags for social media sharing -->
-    <meta property="og:title" content="Anuswar R Rao - Full-stack Developer" />
-    <meta
-      property="og:description"
-      content="Based in India, I'm a Full-stack developer passionate about building accessible web apps that users love."
-    />
-    <meta property="og:image" content="profile-picture.jpg" />
-    <meta property="og:url" content="https://anuswarr.netlify.app/" />
-    <meta property="og:type" content="website" />
-
-    <!-- Font Awesome for icons -->
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="styles.css" />
-
-    <!-- preload Img -->
-    <link rel="preload" as="image" href="profile-picture.jpg" />
+    <script
+      src="https://kit.fontawesome.com/baadd8f5f8.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
-    <!-- Main container -->
-    <div class="container">
-      <!--=============== HEADER ===============-->
-      <div class="head-section">
-        <img src="profile-picture.jpg" alt="profile-picture" />
-        <h1>Anuswar R Rao</h1>
-        <p>
-          Based in India, I'm a Full-stack developer passionate about building
-          accessible web apps that users love.
-        </p>
+    <header class="animate__animated animate__fadeIn">
+      <div class="avatar">
+        <img src="logo.jpg" alt="79 Ling's Hair Studio" />
       </div>
-
-      <!--=============== SOCIAL MEDIA LINKS ===============-->
-      <div class="social-links">
-        <ul>
-          <!-- Social media - 1 -->
-          <li class="website">
-            <a href="https://anuswarrrao.netlify.app/" target="_blank">
-              <i class="fas fa-globe"></i>
-              <span>
-                <h3>My Website</h3>
-                <p>Visit my personal website.</p>
-              </span>
-            </a>
-          </li>
-
-          <!-- Social media - 2 -->
-          <li class="github">
-            <a href="https://github.com/Anuswar" target="_blank">
-              <i class="fab fa-github"></i>
-              <span>
-                <h3>GitHub</h3>
-                <p>Download free source code on GitHub.</p>
-              </span>
-            </a>
-          </li>
-
-          <!-- Social media - 3 -->
-          <li class="linkedin">
-            <a href="https://www.linkedin.com/in/anuswarrrao" target="_blank">
-              <i class="fab fa-linkedin"></i>
-              <span>
-                <h3>LinkedIn</h3>
-                <p>Connect with me on LinkedIn.</p>
-              </span>
-            </a>
-          </li>
-
-          <!-- Social media - 4 -->
-          <li class="instagram">
-            <a href="https://www.instagram.com/anuswarrrao" target="_blank">
-              <i class="fab fa-instagram"></i>
-              <span>
-                <h3>Instagram</h3>
-                <p>Follow me for more updates.</p>
-              </span>
-            </a>
-          </li>
-
-          <!-- Social media - 5 -->
-          <li class="facebook">
-            <a
-              href="https://www.facebook.com/people/Anuswar-R-Rao/100086760363819/"
-              target="_blank"
-            >
-              <i class="fab fa-facebook"></i>
-              <span>
-                <h3>Facebook</h3>
-                <p>Check out my Facebook page.</p>
-              </span>
-            </a>
-          </li>
-
-          <!-- Social media - 6 -->
-          <li class="twitter">
-            <a href="https://x.com/anuswarrrao" target="_blank">
-              <i class="fab fa-twitter"></i>
-              <span>
-                <h3>Twitter</h3>
-                <p>Follow me on Twitter.</p>
-              </span>
-            </a>
-          </li>
-        </ul>
-      </div>
-    </div>
+      <h1>79 Ling's Hair Studio</h1>
+      <p>Hair salon in Miri</p>
+    </header>
+    <main class="animate__animated animate__fadeIn">
+      <a
+        id="whatsapp"
+        class="animate__animated animate__bounce animate__faster card"
+        href="https://github.com/pedro-drosa"
+        target="_blank"
+      >
+        <i class="fa-brands fa-whatsapp"></i>
+        Whatsapp
+      </a>
+      <a
+        id="facebook"
+        class="card animate__animated animate__bounce animate__fast"
+        href="https://facebook.com/pedro-juraci"
+        target="_blank"
+        data-card
+      >
+        <i class="fab fa-facebook"></i>
+        Facebook
+      </a>
+      <a
+        id="googlemap"
+        class="card animate__animated animate__bounce animate_slower"
+        href="https://br.linkedin.com/in/pedrojuraci"
+        target="_blank"
+        data-card
+      >
+        <i class="fa-solid fa-location-dot"></i>
+        googlemap
+      </a>
+      <a
+        id="instagram"
+        class="card animate__animated animate__bounce"
+        href="https://instagram.com/pedro_drosa"
+        target="_blank"
+        data-card
+      >
+        <i class="fab fa-instagram"></i>
+        Instagram
+      </a>
+    </main>
+    <footer>
+      <p>Welcome to visit</p>
+    </footer>
   </body>
 </html>
